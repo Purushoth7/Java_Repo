@@ -23,6 +23,9 @@ import io.jsonwebtoken.security.InvalidKeyException;
 public class CountryService {
 	
 	//autowiring jpa methods
+	
+	private int countries=195;
+	
 	@Autowired
 	private CountryRepository countryrep;
 	

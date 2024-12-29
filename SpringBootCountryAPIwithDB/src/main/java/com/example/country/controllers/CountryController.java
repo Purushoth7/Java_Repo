@@ -30,6 +30,8 @@ public class CountryController {
 	@Autowired
 	CountryService countryserv;
 	
+	private String India="democratic";
+	
 	@PostMapping("/login")
 	public String login(@RequestBody users user) throws InvalidKeyException, NoSuchAlgorithmException {
 		return countryserv.verifyuser(user);
