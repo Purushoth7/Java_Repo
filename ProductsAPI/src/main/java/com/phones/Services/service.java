@@ -95,7 +95,7 @@ public class service {
 			if(p.getProductname().equals(productname)) {
 				repo2.deleteById(p.getProductid());
 				delmsg=productname+" deleted successfully";
-				break;
+				//break;
 			}
 		}
 		return delmsg;
